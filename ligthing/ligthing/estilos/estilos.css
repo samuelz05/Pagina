@@ -1,0 +1,231 @@
+body{
+    background-image: url(../multimedia/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white
+}
+
+.logo{
+    width: 4rem;
+    padding-top: 1rem;
+}
+
+.navbar{
+    --bs-bg-opacity: none;
+}
+
+
+.nav-link{
+    color: rgb(0, 0, 0);
+}
+
+.nav-link:hover{
+    color:  rgb(223, 194, 158);
+}
+
+.tienda{
+    color: #000;
+}
+
+.tienda:hover{
+    color:  rgb(223, 194, 158);
+}
+
+.fondo{
+    background-color: #ffffff
+}
+
+.proyecto{
+    position: relative;
+    top: 3rem;
+    font-family: 'SaintCarellClean_PERSONAL_USE_ONLY';
+}
+.section-Proyecto{
+    width: 100%;
+}
+
+.img-proyecto{
+    width: 12rem;
+    height: 25rem;
+}
+
+.textoProyecto{
+    font-size: 1.1rem;
+    font-family: 'TT Chocolates Trial Regular';
+    text-align: justify;
+}
+
+.titulos{
+    font-size: 2.5rem;
+     font-family: 'SaintCarellClean_PERSONAL_USE_ONLY';
+     color:rgb(223, 194, 158)
+}
+
+.titulosNegros{
+    font-size: 2.5rem;
+    font-family: 'SaintCarellClean_PERSONAL_USE_ONLY';
+     color:rgb(0, 0, 0)
+}
+
+.parrafo1{
+    width: 80%;
+}
+
+.rayita {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+    width: 25%;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+@font-face {
+    font-family: 'SaintCarellClean_PERSONAL_USE_ONLY';
+    src: url(../multimedia/SaintCarellClean_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+    font-family: 'TT Chocolates Trial Regular';
+    src: url(../multimedia/TT\ Chocolates\ Trial\ Regular.otf);
+}
+
+.comic{
+    font-size: 2rem;
+     font-family: 'SaintCarellClean_PERSONAL_USE_ONLY';
+}
+
+.textoComic{
+    font-size: 1.1rem;
+    font-family: 'TT Chocolates Trial Regular';
+    width: 70%;
+    text-align: justify;
+}
+
+.portada{
+    width: 70rem;
+}
+
+.portada:hover{
+    transform: scale(1.1);
+}
+
+.verComic{
+    color: rgb(0, 47, 150);
+    background-color: #ffffff;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+.verComic:hover{
+    background-color: aqua;
+}
+
+.textoNosotros{
+    font-size: 1.1rem;
+    font-family: 'TT Chocolates Trial Regular';
+    width: 70%;
+    text-align: justify;
+    background-color: rgba(21, 116, 153, 0.5);
+
+}
+
+
+.footer{
+    background-color: rgba(21, 116, 153, 0.5);
+}
+
+.logo2{
+    width: 5.5rem;
+
+}
+
+#carouselExampleCaptions{
+    width: 25rem;
+}
+
+
+.carousel-indicators{
+    margin-bottom: -1rem;
+}
+
+.card-img-top{
+    width: 10rem;
+}
+
+.card{
+  background-color: rgba(255, 255, 255, 0.781);
+  --bs-card-bg: rgb(253, 254, 255) var(--bs-body-bg);
+  --bs-card-cap-bg: rgba(21, 116, 153, 0.5) (var(--bs-body-color-rgb), 0.03);
+}
+
+.card-footer a{
+    color: rgb(255 255 255);
+    text-decoration: underline;
+}
+
+.cara{
+    width: 25rem;
+}
+
+#carouselExampleCaptions {
+    width: 20rem;
+}
+
+.tituloPersonajes{
+    font-size: 2.5rem;
+    font-family: 'SaintCarellClean_PERSONAL_USE_ONLY';
+}
+
+.tituloNosotros{
+        font-size: 2.5rem;
+         font-family: 'SaintCarellClean_PERSONAL_USE_ONLY';
+}
+
+.redes:hover{
+    color: rgb(36, 109, 138);
+}
